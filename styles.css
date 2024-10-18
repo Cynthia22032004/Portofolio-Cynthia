@@ -1,0 +1,211 @@
+:root{
+
+    --main-bg-color:#801515;
+    font-family: 'Monserrat', sans-serif;
+  
+  }
+
+body{
+	font-family: 'Monserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #801515;
+    background-color: #F5EEDC;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+}
+
+#portfolio-header {
+  text-align: center; 
+}
+
+#portfolio-header .title h1 {
+  margin-bottom: 20px; 
+  font-family: "Monserrat";
+  font-size: 56px;
+  width: 100%;
+  
+}
+
+#portfolio-header img {
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
+}
+  
+  .hero-img {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+#About-me {
+        background-color:var(--main-bg-color);
+        color: white;
+        text-align: center;
+        padding: 150px 200px 350px 200px;
+        line-height: 30px;  
+      }
+.About > p {  
+        font-size: 20px;
+        width:min(1300px,90%);
+        margin: 0 auto;  
+      }
+      
+.About > h2 {
+        font-size: 26px;
+        font-family: "Monserrat";
+        width: 100%;
+      }
+    
+.skillplus {
+        margin: auto;
+        padding-bottom: 40px;
+        width:min(1250px,90%);
+        display: flex;
+        translate: 0 -200px;
+        border-radius: 15px;
+        border: 1px solid rgba(0,0,0,0.1);
+        background-color: white;
+        position: relative;  
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+.skillplus img {
+        display: block;
+        margin: 30px auto;
+        width: 12%;
+      }
+      
+.skills {
+        text-align: center;
+        line-height: 1.5;
+        font-size: large;
+        padding: 0 30px;
+      }
+      
+.skills p{
+        display: inline;
+        font-weight: lighter!important;
+        font-size: 15px;
+      }
+      
+.skills h4{
+        color:var(--main-bg-color);
+      }
+      
+.skills ul{
+        padding: 0;
+        margin: 0;
+      }
+      
+
+#portfolio {
+    padding: 50px 30px;
+    background-color: #F5EEDC;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-family: "Monserrat";
+    font-size: 96px;
+    width: 100%;
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px; 
+  padding: 20px;
+  justify-content: center;
+}
+.portfolio-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    background-color: #801515;
+    padding: 200px;
+    text-align: center;
+    color: #E5B555;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    color: #E5B555;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin: 15px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #E5B555;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4A1F1F;
+    color: #E5B555;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+
+
